@@ -26,3 +26,4 @@ String cleanedString = "Satz mit  zu  vielen   Leerzeichen".replaceAll(" {2,}", 
 // Version without all those unnecessary backspaces
 System.out.println(cleanedString);
 ```
+`replaceFirst()` works pretty much the same but only for first occurence. 
